@@ -67,7 +67,7 @@ print(f"Winner: {winner}")
 print("------------------------------")
 
 # text file analysis
-pypoll_file = open("/Users/ashleypatricia/Documents/GitHub/python-challenge/PyPoll/Analysis/Election Analysis.txt", "w")
+pypoll_file = open("/Users/ashleypatricia/Documents/GitHub/python-challenge/PyPoll/Analysis /Election Analysis.txt", "w")
 pypoll_file.write("Election Results\n")
 pypoll_file.write("------------------------------\n")
 pypoll_file.write(f"Total Votes: {sum(vote_list)}\n")
