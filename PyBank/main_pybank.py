@@ -11,7 +11,7 @@ with open(pybank_path) as csvfile:
     pybank_reader = csv.reader(csvfile, delimiter=",")
     #print(pybank_reader)
 
-#print out the header names 
+#exclude header from analysis
     pybank_header = next(csvfile, None)
     #print("Header: " + pybank_header)
 
