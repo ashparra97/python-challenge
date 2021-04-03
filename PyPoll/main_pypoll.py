@@ -31,7 +31,7 @@ with open(pypoll_path) as csvfile:
         # count the votes for O'Tooley
         elif row[2] == "O'Tooley":
             vote_list[3] += 1
-    # print out candidate list 
+    # print out candidate list to know their unique names 
     #print(candidates)
     # print out total number of votes for each candidate
     #print(vote_list)
